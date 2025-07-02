@@ -107,6 +107,11 @@ function render(resume) {
             }
         });
 
+        education_info.summary = convertMarkdown(education_info.summary);
+
+        education_info.highlights = _(education_info.highlights)
+            .map(highlight => convertMarkdown(highlight));
+
         education_info.courses = _(education_info.courses)
             .map(c => convertMarkdown(c));
     });

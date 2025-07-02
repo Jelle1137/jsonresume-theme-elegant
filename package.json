@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-elegant",
-  "version": "1.16.1",
+  "version": "2.0.0",
   "description": "Elegant theme for jsonresume",
   "main": "index.js",
   "scripts": {
@@ -8,39 +8,39 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mudassir0909/jsonresume-theme-elegant.git"
+    "url": "https://github.com/Jelle1137/jsonresume-theme-elegant.git"
   },
   "keywords": [
     "jsonresume",
     "theme",
     "elegant"
   ],
-  "author": "Mudassir Ali <mudassir.dev@gmail.com>",
+  "author": "Jelle Emmen <jelle@dalus.eu>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mudassir0909/jsonresume-theme-elegant/issues"
+    "url": "https://github.com/Jelle1137/jsonresume-theme-elegant/issues"
   },
-  "homepage": "https://github.com/mudassir0909/jsonresume-theme-elegant",
+  "homepage": "https://github.com/Jelle1137/jsonresume-theme-elegant",
   "dependencies": {
     "gravatar": "^1.0.6",
     "handlebars": ">=4.0.14",
     "jsonresume-themeutils": "^1.4.3",
-    "markdown-it": "^6.0.1",
+    "markdown-it": "^14.1.0",
     "markdown-it-abbr": "^1.0.3",
     "moment": "^2.22.2",
-    "pug": "^2.0.4",
+    "pug": "^3.0.3",
     "resume-schema": "1.0.0",
-    "tarball-extract": "0.0.3",
     "sshpk": ">=1.13.2",
+    "tarball-extract": "0.0.3",
     "underscore": "^1.6.0"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
-    "grunt-contrib-clean": "0.5.x",
-    "grunt-contrib-copy": "0.4.x",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-exec": "^0.4.6",
+    "grunt-exec": "^3.0.0",
     "less": "^3.8.1"
   }
 }
