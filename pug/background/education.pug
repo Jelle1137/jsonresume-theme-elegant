@@ -24,10 +24,20 @@ unless _.isEmpty(resume.education)
                     |#{education_info.area}, #{education_info.studyType},&nbsp;
                   |#{education_info.institution}
 
-                p.text-muted(class=!education_info.gpa && _.isEmpty(education_info.courses) ? 'clear-margin' : '')
+                p.text-muted
                   small
                     |#{education_info.startDate} - #{education_info.endDate || 'Present'}
-                i= education_info.gpa
+                    
+                if education_info.gpa
+                  p.text-muted.clear-margin
+                    small GPA: #{education_info.gpa}
+
+                .mop-wrapper.space-bottom!= education_info.summary
+
+                unless _.isEmpty(education_info.highlights)
+                  ul
+                    each highlight in education_info.highlights
+                      li.mop-wrapper!= highlight
 
                 unless _.isEmpty(education_info.courses)
                   .space-top.labels
