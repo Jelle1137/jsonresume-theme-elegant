@@ -22,7 +22,10 @@ unless _.isEmpty(resume.education)
 
                   strong
                     |#{education_info.area}, #{education_info.studyType},&nbsp;
-                  |#{education_info.institution}
+                  if education_info.url
+                    a(href=education_info.url, target="_blank")= education_info.institution
+                  else
+                    |#{education_info.institution}
 
                 p.text-muted
                   small
