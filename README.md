@@ -10,8 +10,6 @@ Supported in the following properties `resume.basics.summary`, `work[0].summary`
 ### Social Profiles
 The profiles are shown in the order in which they are specified in the `basics.profiles` array. By default, only 5 profiles are shown & others are revealed on demand.
 
-![Profile Section](https://raw.githubusercontent.com/mudassir0909/jsonresume-theme-elegant/master/screenshots/profile.png)
-
 #### Supported Profiles
 * angellist
 * behance
